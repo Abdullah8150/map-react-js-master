@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  height: 100vh;
+  width: 100vw;
+}
+.nav {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+.nav-wrap {
+  width: 70%;
+  position: relative;
+}
+.suggestion-list {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0px 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 1;
+}
+.search-bar {
+  background-color: white;
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-bar {
+  width: 90%;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+.search-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 5%; */
+  cursor: pointer;
+
+  padding: 10px;
+  /* margin-right: 2px; */
+}
+.search-icon > i {
+  color: #15803d;
+  font-size: 1.5rem;
+  /* margin-right: 2px; */
+}
+
+.map-container {
+  height: 90%;
+  width: 100%;
+  /* background-color: aqua; */
+}
